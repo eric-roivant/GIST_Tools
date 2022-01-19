@@ -13,14 +13,11 @@ Created on Mon Jan 10 10:50:07 2022
 
 ## Many useful functions to process GIST data
 
+import sys
+sys.path.append("/projects2/insite/eric.chen/anaconda3/envs/py36/lib/python3.6/site-packages")
 from gridData import Grid
 import numpy as np
 import os
-
-# Change the work dir to where the "gist.dat" locates
-
-#os.chdir("/Users/ericchen/Desktop/matt_diff_gist/wee1_apo")
-
 
 
 def Generate_dx(dat):
